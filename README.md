@@ -1,4 +1,28 @@
 # BlogApi
+
+    Clone the repository from Github: git clone https://github.com/gulshan00/BlogApi.git
+    Install the required dependencies: npm install
+    Start the server: npm start
+    The API is now running and can be accessed at http://localhost:3000
+
+You can use a tool like Postman to test the API endpoints. The available endpoints are:
+
+    GET /users: to get a list of all users
+    GET /users/:id: to get a specific user by ID
+    POST /users: to create a new user
+    PUT /users/:id: to update a user by ID
+    DELETE /users/:id: to delete a user by ID
+    GET /blogs: to get a list of all blogs
+    GET /blogs/:id: to get a specific blog by ID
+    POST /blogs: to create a new blog
+    PUT /blogs/:id: to update a blog by ID
+    DELETE /blogs/:id: to delete a blog by ID
+    GET /comments: to get a list of all comments
+    GET /comments/:id: to get a specific comment by ID
+    POST /comments: to create a new comment
+    PUT /comments/:id: to update a comment by ID
+    DELETE /comments/:id: to delete a comment by ID
+    GET /users/:id/level/:levelNo: to get all friends of a given user at a given level.
 Based on the given requirements, we need to create a backend API with User, Blog, and Comment models. Here are the high-level steps that we can follow to implement this:
 
     Define the data models for User, Blog, and Comment using a database of our choice. We can use MongoDB or any other relational database depending on our requirements.
